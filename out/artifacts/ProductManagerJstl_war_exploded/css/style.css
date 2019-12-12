@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrap-container {
+    width: 100%;
+    text-align: center;
+}
+
+.wrap-container h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.button a {
+    color: white;
+}
+
+.add {
+    background-color: #55efc4;
+}
+
+.edit {
+    background-color: #fdcb6e;
+    margin-top: 40px;
+}
+
+.delete {
+    background-color: #d63031;
+    margin-top: 40px;
+}
+
+.back {
+    margin-right: 1200px;
+}
+
+.productList {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.productList tr th, .productList tr td{
+    padding: 0 30px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.form tr td {
+    padding: 20px 30px;
+}
+.form tr td input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.message {
+    font-size: 25px;
+}
+
+.success {
+    color: #55efc4;
+}
+
+.search {
+    margin-top: 50px;
+}
